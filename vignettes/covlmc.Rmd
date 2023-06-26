@@ -26,8 +26,6 @@ library(ggplot2)
 
 ## Limitations of Variable Length Markov Chains
 
-1ER essai
-
 Variable Length Markov Chains (VLMC) are very useful to capture complex
 structures in discrete time series as they can mix short memory with
 long memory in a contextual way, leading to sparse models.
