@@ -1,11 +1,12 @@
 #' Predictor of the following state of a discrete time series for a vlmc
 #'
-#' This function predict the next state of a time series from the distribution estimated by the
+#' This function predict each state of a time series from the distribution estimated by the
 #' given vlmc object.
 #'
 #'
 #' @param object a fitted vlmc object.
-#' @param ctx a time series adapted to the vlmc object.
+#' @param ts a time series adapted to the vlmc object.
+#' @param only_last a boolean variable to predict only the following state.
 #' @param ... additional arguments.
 #'
 #' @export
