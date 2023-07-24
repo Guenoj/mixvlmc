@@ -48,7 +48,6 @@ predict.vlmc <- function(object, ts, type = "class", ...) {
       }
     }
     MAT <- cbind(MAT, matrix(pred_vals[thing[, 1]], ncol = 1))
-    print(MAT)
     colnames(MAT) <- "class"
   }
   if ("probs" %in% type) {
